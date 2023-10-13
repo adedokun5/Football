@@ -1,0 +1,286 @@
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-div{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 3%;
+}
+.intro-sect{
+    justify-content: space-between;
+}
+
+.control-text-sect{
+    justify-content: space-between;
+}
+
+@media screen and ( max-width: 649px ) {
+    .intro-sect{
+        flex-basis: 100%;
+    }
+
+    .text-div{
+        flex-basis: 100%;
+        margin-bottom: 3%;
+    }
+
+    .img-div{
+        flex-basis: 100%;
+    }
+
+    .control-text{
+        flex-basis: 75%;
+    }
+
+    .control-text-sect{
+        flex-basis: 80%;
+    }
+    .details-sect{
+        flex-basis: 100%;
+        margin-top: 1%;
+    }
+    .details-sect-control-div{
+        flex-basis: 100%;
+        margin-top: 2%;
+    }
+    .team-sect{
+        margin-top: 1%;
+        flex-basis: 100%;
+    }
+    .comment-sect{
+        margin-top: 1%;
+        flex-basis: 100%;
+    }
+    .text-sect{
+        flex-basis: 100%;
+        align-self: center;
+        margin: 3% 0% 3% 0%;
+        padding: 5%;
+    }
+    .comment-sect-img-div{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and ( min-width: 650px ) {
+    .intro-sect{
+        flex-basis: 100%;
+    }
+
+    .text-div{
+        flex-basis: 50%;
+    }
+
+    .img-div{
+        flex-basis: 43%;
+    }
+
+    .control-text{
+        flex-basis: 75%;
+    }
+
+    .control-text-sect{
+        flex-basis: 70%;
+    }
+    .details-sect{
+        flex-basis: 100%;
+        margin-top: 1%;
+    }
+    .details-sect-control-div{
+        flex-basis: 48%;
+        margin-top: 3%;
+    }
+    .team-sect{
+        margin-top: 1%;
+        flex-basis: 100%;
+    }
+    .comment-sect{
+        margin-top: 1%;
+        flex-basis: 100%;
+    }
+    .text-sect{
+        flex-basis: 50%;
+        align-self: center;
+    }
+    .comment-sect-img-div{
+        flex-basis: 50%;
+    }
+
+}
+
+@media screen and ( min-width: 992px ) {
+    .intro-sect{
+        flex-basis: 49%;
+    }
+
+    .text-div{
+        flex-basis: 50%;
+    }
+
+    .img-div{
+        flex-basis: 43%;
+    }
+
+    .control-text{
+        flex-basis: 70%;
+    }
+
+    .control-text-sect{
+        flex-basis: 80%;
+    }
+    .details-sect{margin-top: 0%;
+
+        flex-basis: 45%;
+    }
+    .details-sect-control-div{
+        margin-top: 5%;
+        flex-basis: 49%;
+    }
+    .team-sect{
+        margin-top: 1%;
+        flex-basis: 50%;
+    }
+    .comment-sect{
+        margin-top: 1%;
+        flex-basis: 49%;
+    }
+    .text-sect{
+        flex-basis: 50%;
+        align-self: center;
+    }
+    .comment-sect-img-div{
+        flex-basis: 50%;
+    }
+
+}
+
+@media screen and ( min-width: 1200px ) {
+    .intro-sect{
+        flex-basis: 50%;
+    }
+
+    .text-div{
+        flex-basis: 58%;
+    }
+
+    .img-div{
+        flex-basis: 35%;
+    }
+
+    .control-text{
+        flex-basis: 75%;
+    }
+
+    .control-text-sect{
+        flex-basis: 70%;
+    }
+    .details-sect{
+        margin-top: 0%;
+        flex-basis: 45%;
+    }
+    .details-sect-control-div{
+        flex-basis: 48%;
+    }
+    .comment-sect{
+        margin-top: 1%;
+        flex-basis: 49%;
+        display: flex;
+        justify-content: start;
+    }
+    .text-sect{
+        flex-basis: 50%;
+        align-self: center;
+    }
+    .comment-sect-img-div{
+        flex-basis: 50%;
+    }
+
+}
+
+h1{
+    color: #3b3b3b;
+    font-size: xx-large;
+    font-family: cursive;
+    font-style: italic;
+}
+
+p{
+    color: #010;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.control-div, .details-sect-control-div{
+    background: #ffffff;
+    border-radius: 5px;
+}
+.control-sect{
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.control-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: inline-block;
+}
+#switch-cont{
+    width: 40px;
+    height: 22px;
+    border-radius: 20px;
+    align-self: center;
+    display: flex;
+}
+
+.on-state{
+    justify-content: end;
+    background: #008000;
+}
+
+.off-state{
+    justify-content: start;
+    background-color: #010;
+}
+
+button .on-state{
+    margin-right: -3px;
+}
+
+button .off-state{
+    margin-left: -3px;
+}
+
+#switch{
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+}
+.details-sect{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.team-img{
+    width: 100%;
+    height: 100%;
+}
+.comment-sect{
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.text-sect{
+    margin: 2%;
+}
